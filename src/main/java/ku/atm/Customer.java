@@ -13,6 +13,12 @@ public class Customer {
       @param aNumber the customer number
       @param aPin the personal identification number
    */
+   public Customer(int aNumber, int aPin, double currentBalance, String accountType) {
+      customerNumber = aNumber;
+      pin = aPin;
+      account = new BankAccount(currentBalance, accountType);
+   }
+
    public Customer(int aNumber, int aPin, double currentBalance) {
       customerNumber = aNumber;
       pin = aPin;
