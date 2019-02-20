@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         format = {"pretty", "html:target/cucumber"},
-        features = {"classpath:features/overdraw.feature"}
+        features = {"classpath:features/overdrawOD.feature"}
 )
-public class UATOverdraw {
+public class UATOverdrawOD {
 
 }

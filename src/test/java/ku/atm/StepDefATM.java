@@ -18,6 +18,7 @@ public class StepDefATM {
     public void init() {
         bank = new Bank();
         atm = new ATM(bank);
+        latestID = -1;
     }
 
     @Given("a customer with id (\\d+) and pin (\\d+) exists")
